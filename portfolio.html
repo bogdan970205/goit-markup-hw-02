@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 
     <title>Portfolio</title>
@@ -20,14 +20,14 @@
     <header>
         <nav>
             <a href="./index.html" class="header-title"><span class="title">Web</span>Studio</a>
-            <ul>
+            <ul class="header-list">
                 <li><a href="./index.html" class="header-link">Studio</a></li>
                 <li><a href="./portfolio.html" class="header-link">Portfolio</a></li>
                 <li><a href="./index.html" class="header-link">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
+            <ul class="header-list">
                 <li><a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="header-link">+11 (000) 111-11-11</a></li>
             </ul>
@@ -35,14 +35,17 @@
     </header>
     <!--Main section  -->
     <main>
-        <button type="button">All</button>
-        <button type="button">Web Site</button>
-        <button type="button">App</button>
-        <button type="button">Design</button>
-        <button type="button">Marketing</button>
-
-        <section>
-            <ul>
+        <!--Button section  -->
+        <ul class="button-list">
+            <li><button type="button">All</button></li>
+            <li><button type="button">Web Site</button></li>
+            <li><button type="button">App</button></li>
+            <li><button type="button">Design</button></li>
+            <li><button type="button">Marketing</button></li>
+        </ul>
+        <!-- Images section -->
+        <section class="images-section">
+            <ul class="images-list">
                 <li>
                     <img src="./images/img4.jpg" alt="Banking app" width="360" height="300">
                     <p>Banking App Interface Concept</p>
