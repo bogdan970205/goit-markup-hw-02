@@ -63,7 +63,7 @@ body {
 .header-link {
     text-decoration: none;
     color: var(--navyblue, #2E2F42);
-        font-family: Roboto;
+        font-family: "Roboto",sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -86,7 +86,7 @@ body {
 .hero-title {
     color: var(--white, #FFF);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto",sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -97,7 +97,7 @@ body {
 .benefits-title{
     color: var(--navyblue, #2E2F42);
         text-align: center;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -117,7 +117,7 @@ body {
 }
 .benefits-subtitle{
     color: var(--navyblue, #2E2F42);
-        font-family: Roboto;
+        font-family: "Roboto",sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -126,7 +126,7 @@ body {
 }
 .benefits-text{
     color: var(--slate, #434455);
-        font-family: Roboto;
+        font-family: "Roboto",sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -138,7 +138,7 @@ body {
 .work-title{
     color: var(--navyblue, #2E2F42);
         text-align: center;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -153,7 +153,7 @@ body {
 .team-title{
     color: var(--navyblue, #2E2F42);
         text-align: center;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -164,9 +164,33 @@ body {
 .team-list{
     list-style: none
 }
+/* Footer section */
+.footer-text{
+    color: var(--cloud, #F4F4FD);
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
 /* Button section */
 .button-list{
     list-style: none
+}
+.button-list-item{
+   
+}
+.button-list-btn{
+    border-radius: 4px;
+        border: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--cloud, #F4F4FD);
+}
+.button-list-btn:hover,
+.button-list-btn:focus{
+    border-radius: 4px;
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 /* Images section */
 .images-list{
