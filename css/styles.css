@@ -52,6 +52,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
+    color: #4d5ae5;
 }
 .title {
     color: var(--iris, #4D5AE5);
