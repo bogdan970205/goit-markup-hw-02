@@ -1,3 +1,15 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --primary-grey-color: #434455;
+    --primary-black-color: #2e2f42;
+    --primary-white-color: #fff;
+    --active-link-color: #404bbf;
+    --primary-grey-second-color: #f4f4fd;
+    --primary-blue-color: #4d5ae5;
+    --primary-font-size: 16px;
+    --primary-line-height: 1.5;
+    --primary-letter-spacing: 0.02em;
+}
 body {
     background-color: #F4F4FD;
     font-family: "Roboto",sans-serif ; 
