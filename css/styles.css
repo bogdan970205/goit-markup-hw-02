@@ -41,22 +41,23 @@ body {
     width: 1440px;
     height: 72;
 }
+.list{
+    list-style: none;
+}
 .header-title {
-    color: var(--navyblue, #2E2F42);
-    font-family: "Raleway",sans-serif;
+color: var(--iris, #4D5AE5);
+    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
-    line-height: 1.17;
-    color: #4d5ae5;
+   
 }
 .title {
-    color: var(--iris, #4D5AE5);
-    font-family: "Raleway", sans-serif;
+color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -64,6 +65,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+        line-height: 1.17;
 }
 .header-list-item{
     color: var(--navyblue, #2E2F42);
